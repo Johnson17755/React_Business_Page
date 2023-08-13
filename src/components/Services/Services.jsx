@@ -17,7 +17,7 @@ export default function Services() {
     <>
         <div id="services">
             <div className="container">
-                <div className="title_headline">
+                <div className="title_headline col-md-3">
                     <h3>What Service's We Are Offering To Our Customers</h3>
                     <p>Justo phasellus ultrices erat tempor aptent pretium semper sociosqu nisl, conubia praesent dictumst at fusce nibh donec nullam, massa varius suspendisse placerat eros malesuada purus ornare.</p>
                 </div>
@@ -81,7 +81,6 @@ export default function Services() {
                             <a href="/" className='read'>Read More</a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

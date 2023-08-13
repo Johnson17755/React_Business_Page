@@ -9,16 +9,15 @@
         content: '';
         position: absolute;
         top: 0;
-        min-height: 1005;
+        min-height: 100%;
         left: 0;
         right: 0;
         z-index: 1;
         background: var(--dark-layer-color);
         pointer-events: none;
     }
-
     @media (max-width: 992px) {
-        padding: 3rem;
+        padding: 3rem 0;
     }
 
     .title_headline{
@@ -29,27 +28,28 @@
         z-index: 2;
 
         & h3{
+            width: 90%;
             font-size: 2.5rem;
             line-height: 3.214rem;
             font-weight: 700;
             color: var(--white-color);
             margin-bottom: 0;
 
-            @media (max-width: 767px) {
+            @media (max-width: 767px){
                 width: 100%;
                 font-size: 1.8rem;
                 line-height: 2.8rem;
             }
         }
-        & p{
-            width: 90%;
-            font: 1.214rem;
-            line-height: 2rem;
-            color: var(--font-color);
+                & p{
+                    width: 90%;
+                    font: 1.214rem;
+                    line-height: 2rem;
+                    color: var(--font-color);
 
-            @media (max-width: 767px) {
-                width: 100%;
-            }
+                    @media (max-width: 767px) {
+                        width: 100%;
+               }
         }
     }
     /* the 6 border and also making it responsive service service_wrapper:service_box*/
@@ -74,10 +74,10 @@
             position: relative;
             z-index: 3;
 
-            @media (max-width: 992px) {
+            @media(max-width:992px) {
                 width: calc(100% / 2 - 1rem);
             }
-            @media (max-width: 767px) {
+            @media(max-width:767px) {
                 width: 100%;
             }
             .number{

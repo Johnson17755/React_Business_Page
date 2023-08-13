@@ -9,7 +9,7 @@
         justify-content: space-between;
 
         @media (max-width: 992px) {
-            flex-direction: column-reverse;
+            flex-direction: column;
         }
         .blog_col{
             width: calc(100% / 2 - 15px);
@@ -17,12 +17,13 @@
             position: relative;
             z-index: 1;
 
-
             @media (max-width: 992px) {
                 width: fit-content;
                 padding: 2rem;
             }
             @media (max-width: 767px) {
+                margin: fit-content;
+                width: fit-content;
                 padding: 1.5rem;
             }
         }
@@ -35,10 +36,9 @@
 
             @media (max-width: 992px) {
                 width: 100%;
-                text-align: center;
             }
             @media (max-width: 767px) {
-                padding: 100%;
+                width: 100%;
                 font-size: 2.2rem;
                 line-height: 3.5rem;
             }
